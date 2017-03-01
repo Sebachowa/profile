@@ -7,87 +7,69 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="sidebar">
-      <ul>
-        <li><a href="#summary"><i class="fa fa-child"></i></a></li>
-        <li><a href="#favorite-movies"><i class="fa fa-film"></i></a></li>
-        <li><a href="#footer"><i class="fa fa-envelope-o"></i></a></li>
-      </ul>
-    </div>
-    <div class="container">
-      <div class="card text-center" id="summary">
-        <img src="profile_picture.jpeg" alt="Sebastian Nugnez" class="img_circle" id="profile">
-        <h1>Sebastian Nugnez</h1>
-        <h2>Alumni @ LeWagon Shanghai Batch #61</h2>
-        <p>After working several years as a marketeer, I start this new adventure of learn coding in Shanghai. <strong>Looking foward to become a Full Stack Developer.</strong></p>
+    <div id="wrapper">
+      <div id="left">
+        <div class="card text-center">
+          <img src="profile_picture.jpeg" alt="Sebastian Nugnez" id="profile-picture">
+          <h1>Sebastian Nugnez</h1>
+          <h2>Alumni @ LeWagon Shanghai<br>Batch #61</h2>
+          <p>After working several years as a marketeer, I start this new adventure of learn coding in Shanghai. <strong>Looking foward to become a Full Stack Developer.</strong></p>
+        </div>
+        <div class="card text-center">
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.facebook.com/sebanugnez" target="_blank">
+                <i class="fa fa-facebook"></i>
+                <br>
+                facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/snugnez/" target="_blank">
+               <i class="fa fa-linkedin"></i>
+               <br>
+               Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Sebachowa" target="_blank">
+                <i class="fa fa-github"></i>
+                <br>Github
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="card text-center">
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.facebook.com/sebanugnez" target="_blank">
-              <i class="fa fa-facebook"></i>
-              <br>
-              facebook
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/snugnez/" target="_blank">
-             <i class="fa fa-linkedin"></i>
-             <br>
-             Linkedin
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/Sebachowa" target="_blank">
-              <i class="fa fa-github"></i>
-              <br>Github
-            </a>
-          </li>
-        </ul>
+      <div id="right">
+        <div class="card text-center">
+          <h2>Bootcamp progress</h2>
+            <table id="progress">
+              <tbody>
+                <tr>
+                  <td>
+                    <img id="progress-bar" src="level.png" alt="level">
+                  </td>
+                  <td>
+                    <p>06 - Projects (10 days)</p>
+                    <p>05 - Rails (10 days)</p>
+                    <p>04 - Front End (8 days)</p>
+                    <p>03 - AR-Database (4 days)</p>
+                    <p>02 - OOP (6 days)</p>
+                    <p>01 - Ruby (6 days)</p>
+                    <p>00 - Setup (1 day)</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
       </div>
-      <div class="card text-center" id="favorite-movies">
-        <h2>Favorites movies/tv shows</h2>
-          <table id="movies-table">
-            <tbody>
-              <tr>
-                <td>
-                  <img src="matrix.jpg" alt="Matrix">
-                </td>
-                <td>
-                  <h3>Matrix</h3>
-                  <p>A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img src="old_school.jpg" alt="Old School">
-                </td>
-                <td>
-                  <h3>Old School</h3>
-                  <p>Three friends attempt to recapture their glory days by opening up a fraternity near their alma mater.</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img src="mr_robot.jpg" alt="Mr. Robot">
-                </td>
-                <td>
-                  <h3>Mr. Robot</h3>
-                  <p>Follows Elliot, a young programmer working as a cyber-security engineer by day, and a vigilante hacker by night.</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <div class="clear">
       </div>
       <div class="card text-center" id="footer">
         <h2>About this page</h2>
         <p>This page have been coded during the FullStack program @ LeWagon</p>
-        <ul class="list-inline">
-          <li>
-            <a href="mailto:sebastian.nugnez@gmail.com?Subject=Contact%20from%20website" target="_top">
-              <i class="fa fa-envelope"></i></a>
-          </li>
-        </ul>
+        <a href="mailto:sebastian.nugnez@gmail.com?Subject=Contact%20from%20website" target="_top">
+        <i class="fa fa-envelope"></i></a>
       </div>
     </div>
   </body>

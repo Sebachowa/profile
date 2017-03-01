@@ -4,26 +4,6 @@ body {
   font-weight: 300;
   color: #7d7d7d;
   font-size: 15px;
-  line-height: 25px;
-}
-
-.sidebar {
-  position: fixed;
-  width: 100px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.sidebar > ul {
-  list-style: none;
-  text-align: center;
-  padding-left: 0px;
-}
-
-.sidebar > ul > li {
-  padding: 20px;
 }
 
 h1 {
@@ -31,12 +11,7 @@ h1 {
   font-size: 23px;
 }
 
-img {
-  width: 90px;
-  padding: 10px 15px 10px 0px;
-}
-
-div > h2 {
+h2 {
   font-size: 20px;
   font-weight: 300;
   margin-top: 10px;
@@ -51,7 +26,7 @@ h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-li > a {
+a {
   color: #c9c9c9;
   font-size: 12px;
   text-decoration: none;
@@ -78,36 +53,70 @@ a:hover {
   font-size: 30px;
 }
 
-.container {
-  width: 500px;
-  margin: 0 auto;
-  margin-left: 300px;
+#wrapper {
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 2px;
+    background: rgba(175, 175, 175, 0.1);
 }
 
-.img_circle {
+#profile-picture {
   border-radius: 50%;
   width: 180px;
   padding: 0;
-}
-
-#profile {
   border: 3px solid #d6d6d6;
 }
 
 .card {
   background-color: #FFFFFF;
   padding: 20px;
-  margin: 20px auto;
+  margin-bottom: 20px;
   border-radius: 2px;
   box-shadow: 1px 1px 2px #d6d6d6;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
-#movies-table {
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 1.6em;
+.clear {
+  clear: both
+}
+
+#right {
+  width: 60%;
+  float: right;
+  min-height: 600px;
+}
+
+#left {
+  width: 35%;
+  float: left;
+  min-height: 600px;
+}
+
+#progress {
+    line-height: 55px;
+    margin: 0 auto;
+}
+
+#progress-bar {
+  margin-right: 50px;
+}
+
+.card:last-child {
+    margin-bottom: 0px;
+}
+
+#right .card {
+    min-height: 530px;
+}
+
+#footer {
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+  line-height: 5px;
 }
