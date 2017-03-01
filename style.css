@@ -65,6 +65,7 @@ a:hover {
 .img_circle {
   border-radius: 50%;
   width: 180px;
+  padding: 0;
 }
 
 #profile {
