@@ -7,6 +7,25 @@ body {
   line-height: 25px;
 }
 
+.sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.sidebar > ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.sidebar > ul > li {
+  padding: 20px;
+}
+
 h1 {
   color: #DD5555;
   font-size: 23px;
@@ -49,7 +68,8 @@ a:hover {
 
 .list-inline > li {
   display: inline-block;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 25px;
 }
 
@@ -57,9 +77,14 @@ a:hover {
   font-size: 30px;
 }
 
+.fa fa-child {
+  font-size: 40px;
+}
+
 .container {
   width: 500px;
   margin: 0 auto;
+  margin-left: 300px;
 }
 
 .img_circle {
